@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name: org.postgresql.Driver
+
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
