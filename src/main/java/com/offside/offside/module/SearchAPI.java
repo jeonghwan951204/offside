@@ -15,7 +15,7 @@ public class SearchAPI {
         // unirest...
         HttpResponse<String> response = Unirest.get("https://api-football-v1.p.rapidapi.com/v3/players")
                 .header("x-rapidapi-host", "api-football-v1.p.rapidapi.com")
-                .header("x-rapidapi-key", "d8421f0fb0mshc7b48947aee0a7bp144348jsnc6ea48e0bf82")
+                .header("x-rapidapi-key", "")
                 .queryString("league", 39)
                 .queryString("search", name)
                 .asString();
